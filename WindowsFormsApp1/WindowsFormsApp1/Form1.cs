@@ -95,16 +95,32 @@ namespace WindowsFormsApp1
 
         private void btn_Limpar_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Voce deseja mesmo sair ?", "Sair", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
-            {
-                Environment.Exit(0);
-            }
+
+            txt_Nome.Text = "";
+            txt_Sobrenome.Text = "";
+            txt_CPF.Text = "";
+            txt_Numero.Text = "";
+            txt_Limite.Text = "";
+            txt_Saldo.Text = "";
+            txt_Valor.Text = "";
+            rdb_Deposito.Checked = false;
+            rdb_Saque.Checked = false;
+            txt_Nome.Focus();
+
 
         }
 
         private void lbl_Saldo_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btn_Sair_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Voce deseja mesmo sair ?", "Sair", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                Environment.Exit(0);
+            }
         }
     }
 }

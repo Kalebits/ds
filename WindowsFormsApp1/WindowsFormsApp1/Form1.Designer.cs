@@ -51,6 +51,7 @@ namespace WindowsFormsApp1
             this.label9 = new System.Windows.Forms.Label();
             this.btn_Registrar = new System.Windows.Forms.Button();
             this.btn_Limpar = new System.Windows.Forms.Button();
+            this.btn_Sair = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -287,11 +288,22 @@ namespace WindowsFormsApp1
             this.btn_Limpar.UseVisualStyleBackColor = true;
             this.btn_Limpar.Click += new System.EventHandler(this.btn_Limpar_Click);
             // 
+            // btn_Sair
+            // 
+            this.btn_Sair.Location = new System.Drawing.Point(663, 27);
+            this.btn_Sair.Name = "btn_Sair";
+            this.btn_Sair.Size = new System.Drawing.Size(56, 55);
+            this.btn_Sair.TabIndex = 9;
+            this.btn_Sair.Text = "Sair";
+            this.btn_Sair.UseVisualStyleBackColor = true;
+            this.btn_Sair.Click += new System.EventHandler(this.btn_Sair_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btn_Sair);
             this.Controls.Add(this.btn_Limpar);
             this.Controls.Add(this.btn_Registrar);
             this.Controls.Add(this.groupBox3);
@@ -334,6 +346,7 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Button btn_Registrar;
         private System.Windows.Forms.Button btn_Limpar;
+        private System.Windows.Forms.Button btn_Sair;
     }
 }
 

@@ -40,5 +40,3 @@ D:\ProjetosVisual\trab1805\trab1805\obj\Debug\netcoreapp3.1\trab1805.csproj.Core
 D:\ProjetosVisual\trab1805\trab1805\obj\Debug\netcoreapp3.1\trab1805.dll
 D:\ProjetosVisual\trab1805\trab1805\obj\Debug\netcoreapp3.1\trab1805.pdb
 D:\ProjetosVisual\trab1805\trab1805\obj\Debug\netcoreapp3.1\trab1805.genruntimeconfig.cache
-D:\ProjetosVisual\trab1805\trab1805\bin\Debug\netcoreapp3.1\NCalc.dll
-D:\ProjetosVisual\trab1805\trab1805\obj\Debug\netcoreapp3.1\trab1805.csproj.CopyComplete

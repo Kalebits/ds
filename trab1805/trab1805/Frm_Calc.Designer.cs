@@ -52,9 +52,7 @@ namespace trab1805
             this.btn_Par2 = new System.Windows.Forms.Button();
             this.txt_Num = new System.Windows.Forms.TextBox();
             this.x = new System.Windows.Forms.ListBox();
-            this.btn_ConvComp = new System.Windows.Forms.Button();
-            this.btn_ConvTemp = new System.Windows.Forms.Button();
-            this.btn_ConvTempo = new System.Windows.Forms.Button();
+            this.btn_Conv = new System.Windows.Forms.Button();
             this.btn_Limpar = new System.Windows.Forms.Button();
             this.btn_Sair = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -406,48 +404,20 @@ namespace trab1805
             this.x.Size = new System.Drawing.Size(258, 214);
             this.x.TabIndex = 21;
             // 
-            // btn_ConvComp
+            // btn_Conv
             // 
-            this.btn_ConvComp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
-            this.btn_ConvComp.FlatAppearance.BorderSize = 2;
-            this.btn_ConvComp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_ConvComp.ForeColor = System.Drawing.Color.White;
-            this.btn_ConvComp.Location = new System.Drawing.Point(161, 380);
-            this.btn_ConvComp.Name = "btn_ConvComp";
-            this.btn_ConvComp.Size = new System.Drawing.Size(113, 58);
-            this.btn_ConvComp.TabIndex = 22;
-            this.btn_ConvComp.Text = "Conversor de Comprimento";
-            this.btn_ConvComp.UseVisualStyleBackColor = false;
-            this.btn_ConvComp.Click += new System.EventHandler(this.btn_ConvComp_Click);
-            // 
-            // btn_ConvTemp
-            // 
-            this.btn_ConvTemp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
-            this.btn_ConvTemp.FlatAppearance.BorderSize = 2;
-            this.btn_ConvTemp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_ConvTemp.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn_ConvTemp.ForeColor = System.Drawing.Color.White;
-            this.btn_ConvTemp.Location = new System.Drawing.Point(22, 380);
-            this.btn_ConvTemp.Name = "btn_ConvTemp";
-            this.btn_ConvTemp.Size = new System.Drawing.Size(113, 58);
-            this.btn_ConvTemp.TabIndex = 23;
-            this.btn_ConvTemp.Text = "Conversor de Temperatura";
-            this.btn_ConvTemp.UseVisualStyleBackColor = false;
-            this.btn_ConvTemp.Click += new System.EventHandler(this.btn_ConvTemp_Click);
-            // 
-            // btn_ConvTempo
-            // 
-            this.btn_ConvTempo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
-            this.btn_ConvTempo.FlatAppearance.BorderSize = 2;
-            this.btn_ConvTempo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_ConvTempo.ForeColor = System.Drawing.Color.White;
-            this.btn_ConvTempo.Location = new System.Drawing.Point(299, 380);
-            this.btn_ConvTempo.Name = "btn_ConvTempo";
-            this.btn_ConvTempo.Size = new System.Drawing.Size(113, 58);
-            this.btn_ConvTempo.TabIndex = 24;
-            this.btn_ConvTempo.Text = "Conversor de Tempo";
-            this.btn_ConvTempo.UseVisualStyleBackColor = false;
-            this.btn_ConvTempo.Click += new System.EventHandler(this.btn_ConvTempo_Click);
+            this.btn_Conv.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
+            this.btn_Conv.FlatAppearance.BorderSize = 2;
+            this.btn_Conv.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Conv.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn_Conv.ForeColor = System.Drawing.Color.White;
+            this.btn_Conv.Location = new System.Drawing.Point(22, 380);
+            this.btn_Conv.Name = "btn_Conv";
+            this.btn_Conv.Size = new System.Drawing.Size(113, 58);
+            this.btn_Conv.TabIndex = 23;
+            this.btn_Conv.Text = "Conversor de Medidas";
+            this.btn_Conv.UseVisualStyleBackColor = false;
+            this.btn_Conv.Click += new System.EventHandler(this.btn_ConvTemp_Click);
             // 
             // btn_Limpar
             // 
@@ -482,9 +452,7 @@ namespace trab1805
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btn_Sair);
             this.Controls.Add(this.btn_Limpar);
-            this.Controls.Add(this.btn_ConvTempo);
-            this.Controls.Add(this.btn_ConvTemp);
-            this.Controls.Add(this.btn_ConvComp);
+            this.Controls.Add(this.btn_Conv);
             this.Controls.Add(this.x);
             this.Controls.Add(this.txt_Num);
             this.Controls.Add(this.btn_Par2);
@@ -538,9 +506,7 @@ namespace trab1805
         private System.Windows.Forms.Button btn_Par2;
         private System.Windows.Forms.TextBox txt_Num;
         public System.Windows.Forms.ListBox x;
-        private System.Windows.Forms.Button btn_ConvComp;
-        private System.Windows.Forms.Button btn_ConvTemp;
-        private System.Windows.Forms.Button btn_ConvTempo;
+        private System.Windows.Forms.Button btn_Conv;
         private System.Windows.Forms.Button btn_Limpar;
         private System.Windows.Forms.Button btn_Sair;
     }

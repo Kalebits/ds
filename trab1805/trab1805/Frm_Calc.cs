@@ -10,6 +10,7 @@ namespace trab1805
 {
     public partial class Frm_Calc : Form
     {
+
         public Frm_Calc()
         {
             InitializeComponent();
@@ -94,7 +95,15 @@ namespace trab1805
 
         private void btn_Pow_Click(object sender, EventArgs e)
         {
-            txt_Num.Text += " ^ ";
+            txt_Num.Text += " * " + txt_Num.Text;
+            string[] ola = new String[99];
+            ola[0] = txt_Num.Text;
+
+            DataTable dt = new DataTable();
+
+            var v = dt.Compute(ola[0], "");
+
+            txt_Num.Text = Convert.ToString(v);
         }
 
         private void btn_Par1_Click(object sender, EventArgs e)
@@ -109,7 +118,18 @@ namespace trab1805
 
         private void btn_Raiz_Click(object sender, EventArgs e)
         {
-            txt_Num.Text = "";
+            
+            string[] ola = new String[99];
+            ola[0] = txt_Num.Text;
+            DataTable dt = new DataTable();
+
+            var v = Math.Sqrt(Convert.ToDouble(ola[0]));
+            txt_Num.Text = Convert.ToString(v);
+
+
+            this.x.Items.Add("√" +Convert.ToString(ola[0]) + " = " + v);
+
+
         }
 
         private void btn_Igual_Click(object sender, EventArgs e)

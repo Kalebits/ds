@@ -1,0 +1,13 @@
+C:\Users\kaleb\source\repos\miguel\miguel\bin\Debug\miguel.exe.config
+C:\Users\kaleb\source\repos\miguel\miguel\bin\Debug\miguel.exe
+C:\Users\kaleb\source\repos\miguel\miguel\bin\Debug\miguel.pdb
+C:\Users\kaleb\source\repos\miguel\miguel\obj\Debug\miguel.csproj.AssemblyReference.cache
+C:\Users\kaleb\source\repos\miguel\miguel\obj\Debug\miguel.Exames.resources
+C:\Users\kaleb\source\repos\miguel\miguel\obj\Debug\miguel.Final.resources
+C:\Users\kaleb\source\repos\miguel\miguel\obj\Debug\miguel.Form1.resources
+C:\Users\kaleb\source\repos\miguel\miguel\obj\Debug\miguel.Properties.Resources.resources
+C:\Users\kaleb\source\repos\miguel\miguel\obj\Debug\miguel.Terms.resources
+C:\Users\kaleb\source\repos\miguel\miguel\obj\Debug\miguel.csproj.GenerateResource.cache
+C:\Users\kaleb\source\repos\miguel\miguel\obj\Debug\miguel.csproj.CoreCompileInputs.cache
+C:\Users\kaleb\source\repos\miguel\miguel\obj\Debug\miguel.exe
+C:\Users\kaleb\source\repos\miguel\miguel\obj\Debug\miguel.pdb
